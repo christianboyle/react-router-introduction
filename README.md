@@ -1,2 +1,2 @@
 # react-router-introduction
-Course: React Router Introduction by Yogesh Chavan 
+React Router Introduction by Yogesh Chavan [[source](https://yogeshchavan.podia.com/courses/react-router-introduction/)]
