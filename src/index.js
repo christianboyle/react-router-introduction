@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from "./components/Header";
+import "./styles.css";
 
 const Home = () => {
   return <h2>Home Page</h2>;
@@ -21,6 +23,7 @@ const NotFound = () => {
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <Switch>
         <Route path="/" component={Home} exact={true} />
         <Route path="/about" component={About} />
